@@ -103,6 +103,7 @@
     color: #1A1B21;
     background-color: #D1D5DB;
     border-radius: 8px;
+    border: none;
 }
 
 .email-button:hover{
@@ -132,6 +133,7 @@
     margin-left: 17px;
     border-radius: 8px;
     margin-bottom: 30px;
+    border: none;
 }
 
 .linkedin-button:hover{
@@ -242,7 +244,10 @@
     color: white;
 }
 
-
+.highlight{
+    background-color: #F47D27;
+    color: #161619;
+}
 
 
 

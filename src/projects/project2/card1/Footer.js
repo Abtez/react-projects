@@ -4,20 +4,20 @@ export default function Footer(){
     return (
         <>
         <div className='footer-icons'>
-        <a href="#!" role="button">
-          <i class="fab fa-facebook-f"></i>
+        <a href="https://www.facebook.com/abzed.tetz/" rel='noreferrer' target='_blank' role="button">
+          <i className="fab fa-facebook-f"></i>
         </a>
         
-        <a href="#!" role="button">
-          <i class="fab fa-twitter"></i>
+        <a href="https://twitter.com/AbzedMohammed" rel='noreferrer' target='_blank' role="button">
+          <i className="fab fa-twitter"></i>
         </a>
         
-        <a href="#!" role="button">
-          <i class="fab fa-google"></i>
+        <a href="https://mail.google.com/chat/u/0/#chat/welcome" rel='noreferrer' target='_blank' role="button">
+          <i className="fab fa-google"></i>
         </a>
         
-        <a href="#!" role="button">
-          <i class="fab fa-instagram"></i>
+        <a href="https://github.com/Abzed" rel='noreferrer' target='_blank' role="button">
+          <i className="fab fa-github"></i>
         </a>
         </div>
         </>

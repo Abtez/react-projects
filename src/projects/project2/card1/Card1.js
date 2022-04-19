@@ -14,8 +14,10 @@ export default function Card1(){
                         <h1 className='my-name'>Abzed Mohammed</h1>
                         <p className='my-title'>Full Stack Developer</p>
                         <p className='my-email'>ibraabzed@gmail.com</p>                       
-                        <button className='email-button'>Email</button>
-                        <button className='linkedin-button'>LinkedIn</button>         
+                        <a href="mailto:ibraabzed@gmail.com"><button className='email-button'><i className="fas fa-envelope"></i> Email</button></a>
+                        <a href="https://www.linkedin.com/in/abzed-mohammed-630bb181/" rel="noreferrer" target='_blank'>
+                        <button className='linkedin-button'><i className="fab fa-linkedin"></i> LinkedIn</button>
+                        </a>         
                         <About />
                         <Interest />
                         <Footer />

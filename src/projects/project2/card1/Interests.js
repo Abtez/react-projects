@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 
 export default function Interest(){
     return (
@@ -7,8 +6,8 @@ export default function Interest(){
         <div className='about'>
         <h3>Interests</h3>
         <p>
-            Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. 
-            Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        Anime expert. Swimming master. Pizzas. Fitness. Internet fanatic. Adventure life. 
+        Entrepreneur. Cinema geek. The Chef.
            </p>
            
         </div>
