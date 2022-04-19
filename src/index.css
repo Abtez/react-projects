@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,231 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #21222A;
+  color: white;
+  font-family: 'Inter', sans-serif !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 7px 0px rgb(71, 69, 69, 0.1);
+  padding: 0px 10px 25px;
+  margin: 30px;
+}
+
+.nav-items{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.nav-items > li{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.img{
+  width: 70px;
+}
+
+.main >li{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px;
+}
+
+.footer{
+  padding: 15px;
+  border: 1px solid grey;
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+}
+
+.foot{
+  margin-top: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+
+.links{
+  /* list-style-type: none; */
+  text-decoration: none;
+  color: inherit;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.links:hover{
+  text-decoration: underline;
+  font-weight: bold !important;
+}
+
+.main-h2{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.project-name{
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.project-name:hover{
+  font-weight: bold;
+}
+
+.wrapper{
+  margin: 30px;
+}
+
+.project-list{
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @keyframes ldio-7d9qi8tz2i {
+    0% {
+      opacity: 1;
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1.5,1.5);
+    } 100% {
+      opacity: 0;
+      backface-visibility: hidden;
+      transform: translateZ(0) scale(1,1);
+    }
+  }
+  .ldio-7d9qi8tz2i div > div {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #ff727d;
+    animation: ldio-7d9qi8tz2i 1s linear infinite;
+  }.ldio-7d9qi8tz2i div:nth-child(1) > div {
+    left: 148px;
+    top: 88px;
+    animation-delay: -0.875s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(1) {
+    transform: rotate(0deg);
+    transform-origin: 160px 100px;
+  }.ldio-7d9qi8tz2i div:nth-child(2) > div {
+    left: 130px;
+    top: 130px;
+    animation-delay: -0.75s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: 142px 142px;
+  }.ldio-7d9qi8tz2i div:nth-child(3) > div {
+    left: 88px;
+    top: 148px;
+    animation-delay: -0.625s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(3) {
+    transform: rotate(90deg);
+    transform-origin: 100px 160px;
+  }.ldio-7d9qi8tz2i div:nth-child(4) > div {
+    left: 46px;
+    top: 130px;
+    animation-delay: -0.5s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(4) {
+    transform: rotate(135deg);
+    transform-origin: 58px 142px;
+  }.ldio-7d9qi8tz2i div:nth-child(5) > div {
+    left: 28px;
+    top: 88px;
+    animation-delay: -0.375s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(5) {
+    transform: rotate(180deg);
+    transform-origin: 40px 100px;
+  }.ldio-7d9qi8tz2i div:nth-child(6) > div {
+    left: 46px;
+    top: 46px;
+    animation-delay: -0.25s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(6) {
+    transform: rotate(225deg);
+    transform-origin: 58px 58px;
+  }.ldio-7d9qi8tz2i div:nth-child(7) > div {
+    left: 88px;
+    top: 28px;
+    animation-delay: -0.125s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(7) {
+    transform: rotate(270deg);
+    transform-origin: 100px 40px;
+  }.ldio-7d9qi8tz2i div:nth-child(8) > div {
+    left: 130px;
+    top: 46px;
+    animation-delay: 0s;
+  }
+  .ldio-7d9qi8tz2i > div:nth-child(8) {
+    transform: rotate(315deg);
+    transform-origin: 142px 58px;
+  }
+  .loadingio-spinner-spin-h8e6ajne12r {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+  }
+  .ldio-7d9qi8tz2i {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+  }
+  .ldio-7d9qi8tz2i div { box-sizing: content-box; }
+
+
+
